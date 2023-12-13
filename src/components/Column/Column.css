@@ -1,0 +1,56 @@
+/* Column.css */
+
+.column {
+    flex-grow: 1;
+    padding: 10px;
+    /* Adjust as needed */
+}
+
+/* Reusable centering class */
+.center-inside {
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card {
+    margin: 5px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.s100 {
+    flex-basis: 100%;
+    /* background-color: blue; */
+}
+
+.s75 {
+    flex-basis: 75%;
+    /* background-color: green; */
+}
+
+.s50 {
+    flex-basis: 50%;
+    /* background-color: red; */
+}
+
+.s25 {
+    flex-basis: 25%;
+    /* background-color: pink; */
+}
+
+.s15 {
+    flex-basis: 15%;
+    /* background-color: yellow; */
+}
+
+.s10 {
+    flex-basis: 10%;
+    /* background-color: yellow; */
+
+}
+.s5 {
+    flex-basis: 5%;
+    /* background-color: yellow; */
+}
