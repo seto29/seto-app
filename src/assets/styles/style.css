@@ -1,42 +1,19 @@
-/* styles.css */
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 400;
   margin: 0;
   padding: 0;
-  background-color: #A9A9A9;
+  background-color: #867F7F;
+  font-family: 'Open Sans', sans-serif; /* Use the imported font */
+  color: #333333; /* Set text color to white for better readability on dark background */
 }
 
-h1, h2 {
-  color: #333;
+body .content {
+  margin: 5px;
+  padding: 10px;
+  background-color: #F9F9F9;
+  font-size: 16px; 
+  border-radius: 5px;
 }
 
-p {
-  color: #666;
-}
-
-.card {
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-}
-
-.profile-picture {
-  max-width: 75%;
-  margin: 20px auto 0; /* Adjust the top margin to align with the heading */
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.profile-picture img {
-  width: 100%;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.profile-picture:hover img {
-  transform: scale(1.1);
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; /* Apply the font to headings if needed */
 }

@@ -6,9 +6,7 @@ import Layout from './components/Layout/Layout';
 function App() {
   return (
     <Layout>
-      <div className="App">
       <ProfilePage />
-      </div>
     </Layout>
   );
 }

@@ -3,8 +3,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faWhatsapp, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
-import './Component.css'; // Import your CSS file for styling
-
 const ContactLink = ({ href, icon, text }) => (
   <li>
     <a href={href} target="_blank" rel="noopener noreferrer">
@@ -15,13 +13,13 @@ const ContactLink = ({ href, icon, text }) => (
 );
 
 const AboutMe = () => (
-  <div className="about-me">
+  <div >
     <h2>About Me</h2>
-    <p className="info">Name: Pratama Wijaya Batara Batoarung</p>
-    <p className="info">Nationality: Indonesian</p>
+    <p >Name: Pratama Wijaya Batara Batoarung</p>
+    <p >Nationality: Indonesian</p>
 
-    <p className="info">Roles:</p>
-    <div className="role-list">
+    <p >Roles:</p>
+    <div >
       <ul>
         <li>Technical Consultant</li>
         <li>Software Developer</li>
@@ -29,8 +27,8 @@ const AboutMe = () => (
       </ul>
     </div>
 
-    <p className="info">Contact</p>
-    <div className="contact-info">
+    <p >Contact</p>
+    <div >
       <ul>
         <ContactLink
           href="https://instagram.com/setowii?igshid=MmVlMjlkMTBhMg%3D%3D&utm_source=qr"

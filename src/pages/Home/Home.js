@@ -9,17 +9,17 @@ import Column from '../../components/Column/Column';
 const ProfilePage = () => {
   return (
     <Row>
-      <Column size="s100 card">
+      <Column >
         <Row>
-          <Column size="s5 center-inside">
+          <Column >
             <ProfilePicture />
           </Column>
-          <Column size="s75">
+          <Column cname="column f2">
             <AboutMe />
           </Column>
         </Row>
         <Row>
-          <Column size="s100">
+          <Column>
             <WorkExperience />
           </Column>
         </Row>

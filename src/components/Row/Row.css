@@ -1,6 +1,11 @@
-/* Row.css */
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* Adjust as needed */
-}
+    margin: -15px; /* Negative margin to offset padding in columns */
+  }
+  
+  /* Ensure each column has equal spacing */
+  .row > .column {
+    flex: 1;
+    padding: 15px;
+  }

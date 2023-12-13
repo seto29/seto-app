@@ -1,11 +1,10 @@
 // WorkExperience.js
 import React from 'react';
-import './Component.css'; // Import your CSS file for styling
 
 const ExperienceItem = ({ jobTitle, company, location, date, responsibilities }) => (
-  <div className="experience-item">
+  <div >
     <h3>{jobTitle}</h3>
-    <p className="subtext">{company} | {location} | {date}</p>
+    <p >{company} | {location} | {date}</p>
     <ul>
       {responsibilities.map((task, index) => (
         <li key={index}>{task}</li>
@@ -15,7 +14,7 @@ const ExperienceItem = ({ jobTitle, company, location, date, responsibilities })
 );
 
 const ExperienceList = ({ experiences }) => (
-  <div className="experience-list">
+  <div >
     <h2>Work Experience</h2>
     {experiences.map((experience, index) => (
       <ExperienceItem key={index} {...experience} />
@@ -64,8 +63,9 @@ const WorkExperience = () => {
     },
     {
       jobTitle: 'Freelance Full-stack Developer',
-      company: 'Code On Top, Bandung',
-      location: 'October 2020 – May 2021',
+      company: 'Code On Top',
+      location: 'Bandung',
+      date: 'October 2020 – May 2021',
       responsibilities: [
         'Created website for client.',
         'Created database and API for client.',
@@ -75,7 +75,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <div className="about-me">
+    <div>
       <ExperienceList experiences={experiences} />
     </div>
   );

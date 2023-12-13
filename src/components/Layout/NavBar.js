@@ -1,16 +1,31 @@
-// NavBar.js
-
 import React from 'react';
+import './NavBar.css'
 
-import './NavBar.css'; // Import your CSS file for styling
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <a href="/" className="navbar-logo">
+        Your Logo
+      </a>
+      <ul className="navbar-menu">
+        <li className="navbar-menu-item">
+          <a href="/" className="navbar-menu-link">
+            Home
+          </a>
+        </li>
+        <li className="navbar-menu-item">
+          <a href="/about" className="navbar-menu-link">
+            About
+          </a>
+        </li>
+        <li className="navbar-menu-item">
+          <a href="/contact" className="navbar-menu-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-const NavBar = () => (
-  <nav className="navbar">
-    <div className="logo">My Resume</div>
-    {/* Add additional navigation links as needed */}
-    {/* For example: <a href="/">Home</a> */}
-    <a href="/">Home</a>
-  </nav>
-);
-
-export default NavBar;
+export default Navbar;

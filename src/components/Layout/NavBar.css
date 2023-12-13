@@ -1,26 +1,45 @@
-/* App.css */
-
-/* ... (previous styles) */
-
 .navbar {
-    background-color: #333;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+    background-color: #001F3F;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
-  .logo {
-    color: #fff;
-    font-size: 1.5rem;
+  /* Navbar logo */
+  .navbar-logo {
+    color: #6EB5FF;
+    font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
   }
   
-  /* Add styling for additional navigation links as needed */
-  /* For example: a { color: #fff; margin-left: 20px; text-decoration: none; } */
+  /* Navbar menu */
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
   
+  /* Navbar menu items */
+  .navbar-menu-item {
+    margin-right: 15px;
+  }
+  
+  /* Navbar menu links */
+  .navbar-menu-link {
+    color: #F9F9F9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Navbar menu links hover effect */
+  .navbar-menu-link:hover {
+    color: #6EB5FF;
+  }

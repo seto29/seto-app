@@ -1,9 +1,9 @@
 // Column.js
 import React from 'react';
-import './Column.css';
+import './Column.css'
 
-const Column = ({ size, children }) => {
-  return <div className={`column ${size}`}>{children}</div>;
+const Column = ({ cname, children }) => {
+    return <div className={cname??"column"}>{children}</div>;
 };
 
 export default Column;
