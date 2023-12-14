@@ -1,9 +1,10 @@
 import React from 'react';
 import ProfileImage from '../../../assets/images/profile-formal.jpg';
+import './Component.css';
 
 const ProfilePicture = () => (
-  <div >
-    <img src={ProfileImage} alt="Profile" />
+  <div className="profile-picture-container">
+    <img className="profile-image" src={ProfileImage} alt="Profile" />
   </div>
 );
 

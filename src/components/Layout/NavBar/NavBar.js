@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="/" className="navbar-logo">
-        Your Logo
+        PWBB
       </a>
       <ul className="navbar-menu">
         <li className="navbar-menu-item">

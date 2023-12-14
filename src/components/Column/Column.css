@@ -1,10 +1,21 @@
 .column {
-    flex: 1;
-    padding: 15px;
-  }
+  flex: 1;
+  padding: 15px;
+}
 
 .column .f2{
-    flex: 3;
-    padding: 15px;
+  flex: 2;
+  padding: 15px;
+}
+
+.column .f3 {
+  flex: 3;
+  padding: 15px;
+}
+
+/* Media query for screens smaller than 768 pixels */
+@media (max-width: 768px) {
+  .column .f3 {
+    flex: 1;
   }
-  
+}

@@ -1,11 +1,24 @@
+/* Default styling for larger screens */
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px; /* Negative margin to offset padding in columns */
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px; /* Negative margin to offset padding in columns */
+}
+
+/* Ensure each column has equal spacing */
+.row > .column {
+  flex: 1;
+  padding: 15px;
+}
+
+/* Media query for screens smaller than 768 pixels */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
   }
-  
-  /* Ensure each column has equal spacing */
+
   .row > .column {
-    flex: 1;
+    flex: 1; /* Adjust flex property as needed */
     padding: 15px;
   }
+}

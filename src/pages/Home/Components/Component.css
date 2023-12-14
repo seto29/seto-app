@@ -1,0 +1,11 @@
+.profile-image {
+  width: 75%;
+  height: auto;
+  border-radius: 5px;
+}
+/* Component.css */
+.profile-picture-container {
+  display: flex;
+  justify-content: center; /* Center the child horizontally */
+  align-items: center; /* Center the child vertically */
+}

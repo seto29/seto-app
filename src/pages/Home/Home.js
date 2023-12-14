@@ -5,6 +5,7 @@ import WorkExperience from './Components/WorkExperience';
 import ProfilePicture from './Components/ProfilePicture';
 import Row from '../../components/Row/Row';
 import Column from '../../components/Column/Column';
+import Card from '../../components/Card/Card';
 
 const ProfilePage = () => {
   return (
@@ -14,13 +15,17 @@ const ProfilePage = () => {
           <Column >
             <ProfilePicture />
           </Column>
-          <Column cname="column f2">
-            <AboutMe />
+          <Column cname="column f3">
+            <Card>
+              <AboutMe />
+            </Card>
           </Column>
         </Row>
         <Row>
           <Column>
-            <WorkExperience />
+            <Card>
+              <WorkExperience />
+            </Card>
           </Column>
         </Row>
       </Column>

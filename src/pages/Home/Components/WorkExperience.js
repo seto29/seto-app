@@ -50,18 +50,6 @@ const WorkExperience = () => {
       ],
     },
     {
-      jobTitle: 'Summer Intern, Fullstack Developer',
-      company: 'PT Rahmat Tuhan Lestari (UR)',
-      location: 'Bandung',
-      date: 'May – July 2021',
-      responsibilities: [
-        'Integrated UR with open API Shipper.id, Xendit, MobilePulsa, and BCA Bank',
-        'Fixed Responsive UI, added Skeleton view on Loading Page',
-        'Created Daily Sales Report Email',
-        'Added new function for Metric Convert and Image Compress',
-      ],
-    },
-    {
       jobTitle: 'Freelance Full-stack Developer',
       company: 'Code On Top',
       location: 'Bandung',
